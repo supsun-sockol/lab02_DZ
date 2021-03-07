@@ -1,7 +1,6 @@
 #include <iostream>
-using namespase std
 int main(){
     string name;
     cin>>name;
-    cout<< "Hi world! from " << name;
-}
+    std::cout<< "Hi world! from " << name;
+} // qwerty
