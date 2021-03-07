@@ -1,5 +1,7 @@
 #include <iostream>
 using namespase std
 int main(){
-    cout<< "Hi world!";
+    string name;
+    cin>>name;
+    cout<< "Hi world! from " << name;
 }
