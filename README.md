@@ -69,3 +69,4 @@
 12) Удалите локальную ветку patch1.
 >- 862  git checkout master 
 >- 864  git branch -D patch1 
+
