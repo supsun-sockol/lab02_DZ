@@ -70,6 +70,7 @@
 * git checkout patch1
 
 branch - создает новую ветку
+
 checkout  - переключает на нужную ветку
 
 > Внесите изменения в ветке patch1 по исправлению кода и избавления от using namespace std;.
@@ -83,4 +84,24 @@ checkout  - переключает на нужную ветку
     }
 ``` 
 * git commit -m"upgrage hw and added RM" -a
-* git push origin master
+* git push origin patch1
+> Проверьте, что ветка patch1 доступна в удалёный репозитории.
+Проверл, доступна, можете сами посмотреть.
+> Создайте pull-request patch1 -> master.
+
+supsun-sockol wants to merge 7 commits into master from patch1
+> В локальной копии в ветке patch1 добавьте в исходный код комментарии.
+* vim hello_world.cpp
+```
+#include <iostream
+int main (){
+    std::string str;
+    std::cin >> str;
+    std::cout << "Hello world from " << str << "\n";
+}
+// Jast a comment
+```
+> commit, push.
+* git commit -m"added comment" -a
+* git push origin patch1
+
