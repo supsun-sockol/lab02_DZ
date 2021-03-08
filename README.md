@@ -145,7 +145,11 @@ Date:   Mon Mar 8 19:23:34 2021 +0300
     upgrade hw
 ```
 > Удалите локальную ветку patch1.
-* 
-=======
+* git branch -D patch1
+```
+Deleted branch patch1 (was ff5e00d).
+```
 
->>>>>>> dff7803ec40abbb66badc2e673062702ad094061
+# Part 3
+
+ 
