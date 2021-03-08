@@ -37,3 +37,28 @@
 * git commit -m"upgrade hw" -a
 
 Не нужно еще раз добавлять hellow word с помощью git add, потому что мы его уже добавил, и этот файл теперь будет отслеживаться автоматически, однако коммитеть нужно с оператором -а.
+> Запуште изменения в удалёный репозиторий.
+* git push origin master
+
+> Проверьте, что история коммитов доступна в удалёный репозитории.
+* 
+
+    upgrade hw
+    @supsun-sockol
+    supsun-sockol committed 5 minutes ago
+
+    upgrade hw
+    @supsun-sockol
+    supsun-sockol committed 7 minutes ago
+
+    added hw
+    @supsun-sockol
+    supsun-sockol committed 13 minutes ago
+
+    Merge branch 'master' of https://github.com/supsun-sockol/lab02_DZ
+    @supsun-sockol
+    supsun-sockol committed 21 minutes ago
+
+    added README
+    @supsun-sockol
+
