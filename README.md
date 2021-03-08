@@ -6,3 +6,4 @@
 
 * vim README.md
 * git add README.md
+* git commit -m"Start doing DZ"
