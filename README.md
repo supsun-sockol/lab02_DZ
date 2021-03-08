@@ -104,4 +104,48 @@ int main (){
 > commit, push.
 * git commit -m"added comment" -a
 * git push origin patch1
+<<<<<<< HEAD
+> Проверьте, что новые изменения есть в созданном на шаге 5 pull-request
+```
+ added comment
 
+    patch1 (#2) 
+
+@supsun-sockol
+supsun-sockol committed 2 minutes ago 
+```
+> В удалённый репозитории выполните слияние PR patch1 -> master и удалите ветку patch1 в удаленном репозитории.
+```
+
+Pull request successfully merged and closed
+
+You’re all set—the patch1 branch can be safely deleted.
+```
+> Локально выполните pull.
+* git pull origin master
+> С помощью команды git log просмотрите историю в локальной версии ветки master.
+* git log
+```
+commit 15a4e4963c890666963b61ff3d3e524598e46afd (HEAD -> master)
+Author: supsun-sockol <supsun-sockol@yandex.ru>
+Date:   Mon Mar 8 20:02:57 2021 +0300
+
+    apgrede RM
+
+commit 430c5f438ab86c3e600c09f9d4d7fb1af161bf3c
+Author: supsun-sockol <supsun-sockol@yandex.ru>
+Date:   Mon Mar 8 19:30:23 2021 +0300
+
+    write RM
+
+commit 5be25052000cc8c98fd3224c1264ebdaea1f4b01
+Author: supsun-sockol <supsun-sockol@yandex.ru>
+Date:   Mon Mar 8 19:23:34 2021 +0300
+
+    upgrade hw
+```
+> Удалите локальную ветку patch1.
+* 
+=======
+
+>>>>>>> dff7803ec40abbb66badc2e673062702ad094061
