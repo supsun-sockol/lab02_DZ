@@ -1,7 +1,7 @@
-#include <iostream>
-using namespace std;
+#include <iostream
 int main (){
-    string str;
-    cin >> str;
-    cout << "Hello world from " << str << "\n";
+    std::string str;
+    std::cin >> str;
+    std::cout << "Hello world from " << str << "\n";
 }
+// Jast a comment
