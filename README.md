@@ -26,7 +26,7 @@
 
 > Изменитьте исходный код так, чтобы программа через стандартный поток ввода запрашивалось имя пользователя. А в стандартный поток вывода печаталось сообщение Hello world from @name, где @name имя пользователя.
 * vim hello_world.cpp
-    
+``` 
     #include <iostream>
     using namespace std;
     int main (){
@@ -34,7 +34,7 @@
         cin >> str;
         cout << "Hello world from " << str << "\n";
     }
-    
+``` 
 > Закоммитьте новую версию программы. Почему не надо добавлять файл повторно git add?
 * git commit -m"upgrade hw" -a
 
@@ -74,13 +74,13 @@ checkout  - переключает на нужную ветку
 
 > Внесите изменения в ветке patch1 по исправлению кода и избавления от using namespace std;.
 * vim hello_world.cpp
-    
+```    
     #include <iostream
     int main (){
         std::string str;
         std::cin >> str;
         std::cout << "Hello world from " << str << "\n";
     }
-    
+``` 
 * git commit -m"upgrage hw and added RM" -a
 * git push origin master
