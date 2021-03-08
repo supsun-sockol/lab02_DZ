@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
 int main (){
-    cout << "Hello world\n";
+    string str;
+    cin >> str;
+    cout << "Hello world from " << str << "\n";
 }
