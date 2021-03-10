@@ -178,7 +178,7 @@ This branch has no conflicts with the base branch
 ```
 /* This is a Comment!*/
 ```
-Теперь ошибкии есть
+Теперь ошибки есть
 ```
 This branch has conflicts that must be resolved
 ```
@@ -193,6 +193,7 @@ git merge patch2
 > Сделайте force push в ветку patch2
 * git push --force origin patch2
 > Убедитель, что в pull-request пропали конфликтны.
+
 > Вмержите pull-request patch2 -> master.
 ```
 Pull request successfully merged and closed
