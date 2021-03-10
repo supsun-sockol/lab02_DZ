@@ -157,4 +157,30 @@ Deleted branch patch1 (was ff5e00d).
 * git checkout patch2
 > Измените code style с помощью утилиты clang-format. Например, используя опцию -style=Mozilla.
 * clang-format -style=Mozilla hello_world.cpp
+> commit, push, создайте pull-request patch2 -> master.
+* git commit -m"style=Mozilla" -a
+* git push origin patch2
+```
+supsun-sockol wants to merge 1 commit into master from patch2
+```
+> В ветке master в удаленном репозитории измените комментарии, например, расставьте знаки препинания, переведите комментарии на другой язык.
+Полностью поменял комментарий на
+```
+This is a comment!
+```
+Но!
+```
+This branch has no conflicts with the base branch
+```
+Мой код и так очень сильно был похож на код мозиллы, поэтому перехожу к искуственному созданию конфликтов.
+Ведь изменения затрагивали разные строчки
+Поэтому я поменяю метод комментирования в удаленном репозитории в главной ветке.
+```
+/* This is a Comment!*/
+```
+Теперь ошибкии есть
+```
+This branch has conflicts that must be resolved
+```
+> Для этого локально выполните pull + rebase (точную последовательность команд, следует узнать самостоятельно). Исправьте конфликты.
 
