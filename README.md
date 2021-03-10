@@ -183,4 +183,17 @@ This branch has no conflicts with the base branch
 This branch has conflicts that must be resolved
 ```
 > Для этого локально выполните pull + rebase (точную последовательность команд, следует узнать самостоятельно). Исправьте конфликты.
-
+Я успользовал такой набор команд:
+```
+git checkout master
+git rebase master
+git checkout patch2
+git merge patch2
+```
+> Сделайте force push в ветку patch2
+* git push --force origin patch2
+> Убедитель, что в pull-request пропали конфликтны.
+> Вмержите pull-request patch2 -> master.
+```
+Pull request successfully merged and closed
+```
