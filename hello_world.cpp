@@ -4,4 +4,4 @@ int main (){
     std::cin >> str;
     std::cout << "Hello world from " << str << "\n";
 }
-// This is a comment!!
+// Jast a comment
