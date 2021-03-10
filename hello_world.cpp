@@ -1,4 +1,4 @@
-#include <iostream
+#include <iostream>
 int main (){
     std::string str;
     std::cin >> str;
