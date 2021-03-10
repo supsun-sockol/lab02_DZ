@@ -152,4 +152,9 @@ Deleted branch patch1 (was ff5e00d).
 
 # Part 3
 
- 
+> Создайте новую локальную ветку patch2.
+* git branch patch2 
+* git checkout patch2
+> Измените code style с помощью утилиты clang-format. Например, используя опцию -style=Mozilla.
+* clang-format -style=Mozilla hello_world.cpp
+
